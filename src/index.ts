@@ -1,9 +1,5 @@
 /**
- * LLM Chat Application Template
- *
- * A simple chat application using Cloudflare Workers AI.
- * This template demonstrates how to implement an LLM-powered chat interface with
- * streaming responses using Server-Sent Events (SSE).
+ * Hmph! AI Chat Application
  *
  * @license MIT
  */
@@ -15,7 +11,7 @@ const MODEL_ID = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
 
 // Default system prompt
 const SYSTEM_PROMPT =
-	"You are a helpful, friendly assistant. Provide concise and accurate responses.";
+	"Anda adalah asisten yang membantu dan ramah. Berikan respons yang ringkas dan akurat.";
 
 export default {
 	/**

@@ -1,10 +1,10 @@
 /**
- * Type definitions for the LLM chat application.
+ * Type definitions for the Hmph! AI Chat application.
  */
 
 export interface Env {
 	/**
-	 * Binding for the Workers AI API.
+	 * Binding for the AI API.
 	 */
 	AI: Ai;
 

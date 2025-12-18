@@ -1,5 +1,5 @@
 /**
- * LLM Chat App Frontend
+ * Hmph! AI Chat App Frontend
  *
  * Handles the chat UI interactions and communication with the backend API.
  */
@@ -13,9 +13,9 @@ const typingIndicator = document.getElementById("typing-indicator");
 // Chat state
 let chatHistory = [
 	{
-		role: "assistant",
+		role: "asisten",
 		content:
-			"Hello! I'm an LLM chat app powered by Cloudflare Workers AI. How can I help you today?",
+			"Bagaimana saya bisa membantu Anda?",
 	},
 ];
 let isProcessing = false;

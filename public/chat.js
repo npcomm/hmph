@@ -13,7 +13,7 @@ const typingIndicator = document.getElementById("typing-indicator");
 // Chat state
 let chatHistory = [
 	{
-		role: "asisten",
+		role: "assistant",
 		content:
 			"Bagaimana saya bisa membantu Anda?",
 	},
